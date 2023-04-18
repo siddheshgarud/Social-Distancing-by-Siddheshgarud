@@ -52,23 +52,23 @@ will eventually upload more pictures
 
 * Main page of the app
 
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot.jpeg"  width="250" height="350" />
+<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot.jpeg"  width="300" height="500" />
 
 * When you first launch the App, it may request permission to access your device's Bluetooth functionality.
 
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot5.jpeg"  width="250" height="350" />
+<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot5.jpeg"   width="300" height="500"/>
 
 * Main page when no user is detected
 
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot12.jpeg"  width="250" height="350" />
+<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot12.jpeg"   width="300" height="500" />
 
 * If a user is detected violating social distancing guidelines, the App will generate an 'Alert' to notify the user, and the importance of risk level will increase depending on the distance.
 
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot11.jpeg"  width="250" height="350" />
+<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot11.jpeg"   width="300" height="500" />
 
 * The App maintains a history of previously detected users, including the accurate time of detection, the proximity distance of the user, and an assessment of the associated risk level. 
 
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot7.jpeg"  width="250" height="350" />
+<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot7.jpeg"   width="300" height="500" />
 
 ## Tech Stack
 
@@ -85,20 +85,17 @@ The Social Distancing app utilizes the BLE advertising feature to broadcast its 
 
 The proximity status of the nearby devices is determined by measuring the RSSI of the received advertising packets. RSSI is a measure of the signal strength of the received BLE signals, and it can be used to estimate the distance or proximity between devices. For example, a stronger RSSI value may indicate that the devices are closer to each other, while a weaker RSSI value may indicate that they are further apart.
 
-* Flowchart of the system
-
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot6.jpeg"  width="200" height="400" />
-
-
 The app uses GATT servers, which are part of the BLE protocol, to expose data about its proximity status to other devices in a standardized way. The app's GATT server stores information such as the device's unique identifier and proximity status.
 
 When a nearby device receives an advertising packet from the app, it can read the data from the app's GATT server to obtain information about its proximity status. For example, the GATT server may store the RSSI value of the advertising packet, which can be used to estimate the distance between the devices.
 
 Based on the proximity status of the nearby devices, the app can trigger alerts or notifications to remind users to maintain social distancing. For example, if the RSSI value indicates that two devices are within a certain threshold distance, the app may alert the users to maintain a safe distance from each other.
 
-* UML Digram
+* Flowchart of the system
 
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot3.jpeg"  width="200" height="400" />
+<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot6.jpeg"  width="400" height="600" />
+
+
 ## Explanation
 
 
@@ -120,11 +117,11 @@ In BLE communication, a GATT Client and a GATT Server can be either the same dev
 
 * DFD Level 0
 
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot8.jpeg"  />
+<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot8.jpeg"  height="200"  />
 
 * DFD Level 1
 
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot9.jpeg"  />
+<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot9.jpeg"  height="200" />
 
 ## Disclaimer
 
