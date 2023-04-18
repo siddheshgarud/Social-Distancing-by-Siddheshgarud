@@ -117,7 +117,7 @@ In BLE communication, a GATT Client and a GATT Server can be either the same dev
 
 * DFD Level 0
 
-<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot8.jpeg"  height="200"  />
+<img src="https://raw.githubusercontent.com/siddheshgarud/Social-Distancing-by-Siddheshgarud/master/Screenshots/Screenshot8.jpeg"  height="100"  />
 
 * DFD Level 1
 
